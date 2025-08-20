@@ -11,7 +11,7 @@ namespace Homies.Models.Event
 
         [Required]
         [StringLength(EventMaxName, MinimumLength = EventMinName,
-            ErrorMessage = "Event name must be between 5 and 20 characters.")]
+            ErrorMessage = "Event name must be between 5 and twenty characters.")]
         public string Name { get; set; } = null!;
 
         [Required]
