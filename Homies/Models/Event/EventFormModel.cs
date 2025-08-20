@@ -11,12 +11,12 @@ namespace Homies.Models.Event
 
         [Required]
         [StringLength(EventMaxName, MinimumLength = EventMinName,
-            ErrorMessage = "Event name must be between 5 and 20 characters.")]
+            ErrorMessage = "Event name must be between 5 and twenty characters.")]
         public string Name { get; set; } = null!;
 
         [Required]
         [StringLength(EventMaxDescription, MinimumLength = EventMinDescription,
-            ErrorMessage = "Description must be between 15 and 150 characters.")]
+            ErrorMessage = "Description must be between 15 and one hundred fifty characters.")]
         public string Description { get; set; } = null!;
 
         [Required]
